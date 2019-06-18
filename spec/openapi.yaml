@@ -1,0 +1,28 @@
+openapi: 3.0.0
+x-api-id: dapi
+info:
+  title: DAPI
+  version: 0.6.1
+  description: Dash Decentralized API (DAPI)
+servers:
+  - url: 'http://devnet-porto.thephez.com:3000'
+    description: Devnet
+  - url: '{url}:{port}'
+    description: User-defined network
+    variables:
+      url:
+        default: 'http://dapi.dash.org'
+      port:
+        default: '3000'
+x-send-defaults: true
+x-headers: []
+x-explorer-enabled: true
+x-proxy-enabled: true
+x-samples-enabled: true
+x-samples-languages:
+  - curl
+  - node
+  - ruby
+  - javascript
+  - python
+tags: []
