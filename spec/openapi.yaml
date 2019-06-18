@@ -5,8 +5,8 @@ info:
   version: 0.6.1
   description: Dash Decentralized API (DAPI)
 servers:
-  - url: 'http://devnet-porto.thephez.com:3000'
-    description: Devnet
+  - url: 'http://dapi-testnet.thephez.com:3999'
+    description: Testnet
   - url: '{url}:{port}'
     description: User-defined network
     variables:
