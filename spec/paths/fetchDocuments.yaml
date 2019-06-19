@@ -61,13 +61,13 @@ post:
                       description: Mongo-like sort field
                     limit:
                       type: integer
-                      default: ''
+                      default: 1
                       description: How many objects to fetch
                     startAt:
                       type: integer
-                      default: ''
+                      default: 0
                       description: Number of objects to skip
                     startAfter:
                       type: integer
-                      default: ''
+                      default: 0
                       description: Exlusive skip
