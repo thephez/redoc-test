@@ -1,5 +1,5 @@
 # DAPI OpenAPI Specification
-[![Build Status](https://travis-ci.com/thephez/redoc-test.svg?branch=master)](https://travis-ci.com/thephez/redoc-test)
+[![Build Status](https://travis-ci.org/thephez/redoc-test.svg?branch=master)](https://travis-ci.com/thephez/redoc-test)
 ## Steps to finish
 
 1. Enable [Travis](https://docs.travis-ci.com/user/getting-started/#To-get-started-with-Travis-CI%3A) for your repository (**note**: you already have `.travis.yml` file)
